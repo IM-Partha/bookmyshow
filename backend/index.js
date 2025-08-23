@@ -23,7 +23,7 @@ app.use(cors());
 connection(); 
 
 app.get('/ping',(req,res)=>{
-    res.send("PONG")
+   return res.send("PONG")
 })
 
 
