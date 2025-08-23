@@ -1,1 +1,4 @@
-export const urlApi = 'http://localhost:8080'
+
+
+// 'http://localhost:8080'
+export const urlApi = 'https://book-myshow-pied.vercel.app'
