@@ -22,6 +22,11 @@ app.use(cors());
 // here we are calling the database connection function
 connection(); 
 
+app.get('/ping',(req,res)=>{
+    res.send("PONG")
+})
+
+
 app.use("/api", require("./routes")); 
 
 app.listen(PORT, () => console.log(`App listening on port ${PORT}!`)); 
